@@ -1,0 +1,154 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{fontawesome5}
+\usepackage[hidelinks, breaklinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xurl}
+
+\definecolor{sectioncolor}{HTML}{2E86C1}
+\definecolor{linkcolor}{HTML}{1B4F72}
+
+\titleformat{\section}{
+  \color{sectioncolor}\scshape\large\bfseries
+}{}{0em}{}[\titlerule]
+
+\newcommand{\contactinfo}[3]{\faIcon{#1} \href{#2}{#3}}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+%====================
+% header
+%====================
+\begin{center}
+    {\LARGE \textbf{Ivan Gaydardzhiev}}\\[6pt]
+    \contactinfo{github}{https://github.com/gaidardzhiev}{github.com/gaidardzhiev} \quad
+\end{center}
+
+%\vspace{10pt}
+
+%====================
+% education
+%====================
+\section*{Education}
+\noindent
+\textbf{Harvard CS50: Introduction to Computer Science} \hfill \textit{July 2025} \\
+Harvard University in Cambridge, Massachusetts, United States \\
+Electronic Certificate:  \url{https://cs50.harvard.edu/certificates/0a4e16b5-3ca8-4404-a34f-c81a94b3779d}
+%\vspace{6pt}
+\noindent
+
+\textbf{Elastic Engineer} \hfill \textit{July 2025} \\
+Elasticsearch Training Program\\
+Certificate ID:  \url{C131225}
+%\vspace{6pt}
+\noindent
+
+\textbf{LFS101: Introduction to Linux} \hfill \textit{July 2025} \\
+The Linux Foundation\\
+Certificate ID:  \url{LF-sd75vzpzz9} \hfill Credential ID:  \url{e894cac9-abdd-47fd-a963-22f5d78f7361}\\
+Electronic Badge:  \url{https://www.credly.com/badges/e894cac9-abdd-47fd-a963-22f5d78f7361}
+%Electronic Certificate:  \url{https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/c8722fe0-5f95-42e2-b109-835632dceadd-ivan-gaydardzhiev-56888adb-fc36-4b5e-a22d-560375d45701-certificate.pdf}\\
+%\vspace{6pt}
+\noindent
+
+\textbf{LFC108: Cybersecurity Essentials} \hfill \textit{July 2025} \\
+The Linux Foundation\\
+Certificate ID:  \url{LF-vuxlu4yniw} \hfill Credential ID:  \url{528a600a-7816-4a29-a22a-167b17df4f66}\\
+Electronic Badge:  \url{https://www.credly.com/badges/528a600a-7816-4a29-a22a-167b17df4f66}
+%\vspace{6pt}
+\noindent
+
+\textbf{LFD103: Linux Kernel Development} \hfill \textit{July 2025} \\
+The Linux Foundation\\
+Certificate ID:  \url{LF-nailp6wsqp} \hfill Credential ID:  \url{b0192726-86e1-4c7a-b577-5da5641a26a0}\\
+Electronic Badge:  \url{https://www.credly.com/badges/b0192726-86e1-4c7a-b577-5da5641a26a0}
+\noindent
+
+\textbf{LFD110: RISC-V} \hfill \textit{August 2025} \\
+The Linux Foundation\\
+Certificate ID:  \url{LF-6p3ks6n6ug} \hfill Credential ID: \url{e27b5dd6-f218-4285-906b-82f5bc9ea3a7}\\
+Electronic Badge:  \url{https://www.credly.com/badges/e27b5dd6-f218-4285-906b-82f5bc9ea3a7}
+\noindent
+
+\textbf{LFS169: GitOps} \hfill \textit{August 2025} \\
+The Linux Foundation\\
+Certificate ID:	 \url{LF-13j7k19kc3} \hfill Credential ID: 	\url{76633aef-434b-49c4-a35a-35830e3c1261}\\
+Electronic Badge:  \url{https://www.credly.com/badges/76633aef-434b-49c4-a35a-35830e3c1261}
+\noindent
+
+\textbf{LFS158: Kubernetes} \hfill \textit{August 2025} \\
+The Linux Foundation\\
+Certificate ID: \url{LF-wf25gd6qf3} \hfill Credential ID: \url{f1d504d1-b4cb-47ad-b608-112567e868b7}\\
+Electronic Badge: \url{https://www.credly.com/badges/f1d504d1-b4cb-47ad-b608-112567e868b7}
+\noindent
+%====================
+% technologies
+%====================
+
+\section*{Programming Languages \& Technologies}
+\begin{tabular}{@{} l l @{}}
+\textbf{Languages:} & C, POSIX Shell, Makefile, ARMv8L Assembly, x86 Assembly, \\
+                    & X86-64 Assembly, LaTeX, Groff \\[6pt]
+
+\textbf{Operating Systems:} & Linux, FreeBSD, OpenBSD, Plan9 \\[6pt]
+
+\textbf{Compilers and Toolchains:} & GCC, TCC, Clang, musl-gcc, glibc, uClibc, \\
+                                   & dietlibc, avr-libc, GDB, GNU Make \\[6pt]
+
+\textbf{Tools:} & git, zsh, bash, nmap, ncat, ssh, awk, grep, sed, curl, wget, \\
+                & dig, host, nslookup, fsck, gpg, grub, gzip, masscan, openvpn, \\
+                & openssl, qemu, rsync, systemd, runit, tar, diff, pacman, nc, \\
+		& aircrack-ng, wireshark, bettercap, metasploit, kismet, hping, \\
+		& hashcat, tcpdump, responder, dsniff, ettercap, john, airgeddon
+\end{tabular}
+
+%====================
+% projects
+%====================
+\section*{Projects}
+
+\noindent
+\textbf{Toolbox (C, Makefile)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev}{github.com/gaidardzhiev/toolbox}} \\
+Developed a compact, statically linked binary in C that consolidates numerous common *nix command line utilities into a single executable. This minimalist toolkit provides essential *nix commands through one unified binary, significantly simplifying deployment and usage. The static linking approach ensures all dependencies are embedded within the executable, eliminating external library requirements and enhancing portability across compatible systems.
+
+\vspace{6pt}
+
+\noindent
+\textbf{Syscall (C, ARMv8L 32bit assembly)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/syscall}{github.com/gaidardzhiev/syscall}} \\
+Developed a suite of low level Linux command line utilities and a minimalist shell using only direct system calls invoked via inline assembly, completely bypassing the standard C library. This project involved writing ARMv8L 32bit assembly code, manually handling process initialization, and implementing the command line tools by interfacing directly with the Linux kernel through raw syscalls, demonstrating deep expertise in low level systems programming, ARM calling conventions, syscall ABI, assembly level process control and OS internals.
+
+\vspace{6pt}
+
+\noindent
+\textbf{Crt0trust (ARMv8L 32bit assembly, C)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/crt0trust}{github.com/gaidardzhiev/crt0trust}} \\
+This project presents a proof of concept implementation of the "Trusting Trust" attack, originally described by Ken Thompson. It involves embedding a backdoor in the low level C runtime startup assembly code (crt0.s), which silently launches a reverse shell as soon as a program is executed. The demonstration shows how a compromised toolchain can insert malicious code that remains undetectable in the source code and replicates itself during compilation. It underscores the serious security threat of relying on compiled binaries and compilers without thoroughly verifying the integrity of the entire build process, illustrating the stealthy and self propagating nature of the attack first introduced in Thompson's influential 1984 Turing Award lecture.
+
+\vspace{6pt}
+
+\noindent
+\textbf{SBPM (POSIX Shell)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/sbpm}{github.com/gaidardzhiev/sbpm}} \\
+Developed a lightweight, POSIX compliant shell script package manager that handles source and binary packages with minimal dependencies (only POSIX shell and wget). It supports bootstrapping native compilers and cross compilers, automates Linux kernel builds, and enables reproducible, portable software builds across multiple architectures, while also managing a wide range of packages including libraries, shells, networking tools, system utilities, window managers, bootloaders, emulators, and telecommunications software making it a versatile solution for diverse development needs.
+
+\vspace{6pt}
+
+\noindent
+\textbf{Scripts (POSIX Shell)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/scripts}{github.com/gaidardzhiev/scripts}} \\
+Developed and maintained a comprehensive suite of over 50 custom POSIX compliant shell scripts designed to automate and enhance various system administration, development, and security tasks on *nix operating systems. This extensive script collection has significantly reduced manual effort, improved system reliability, and accelerated development cycles. The modular design allows easy adaptation and reuse across projects, demonstrating strong problem solving and automation skills.
+
+\vspace{6pt}
+
+\noindent
+\textbf{Oldbox (C, Makefile)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/oldbox}{github.com/gaidardzhiev/oldbox}} \\
+Developed a robust collection of *nix command line tools focused on file manipulation, text processing, system monitoring, process control and logic. The project involved implementing core functionalities such as directory traversal, file reading and writing, string transformation, and inter process communication. Emphasis was placed on creating efficient, reusable code with automated build processes to ensure reliability and maintainability. This work deepened expertise in low level system programming, shell integration, and the design of modular utilities that interact seamlessly within a *nix environment.
+
+\vspace{6pt}
+
+\noindent
+\textbf{Getprand (ARMv7 Assembly, Makefile)} \hfill \textit{Git: \href{https://github.com/gaidardzhiev/getprand}{github.com/gaidardzhiev/getprand}} \\
+Developed an ARMv7 32bit pseudo random string generator entirely in assembly. It directly invokes Linux kernel syscalls without any libc or runtime, demonstrating deep understanding of low level ARM syscall conventions, memory management, and minimalistic assembly coding.
+\end{document}
